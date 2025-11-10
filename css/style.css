@@ -1,0 +1,79 @@
+.gradientbg {
+    background: linear-gradient(-45deg, #a622e9, #ce93e9, #23a6d5, #34a3f3);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    min-height: auto;
+    overflow: hidden;
+}
+
+
+#hero.gradientbg {
+    min-height: 100vh;
+}
+
+
+#footer.gradientbg {
+    height: auto;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.tpic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.hero-image {
+    max-width: 450px;
+    height: auto;
+}
+
+#Testimonial {
+    background: linear-gradient(135deg, #c4d7ff, #f3f6ff);
+}
+
+.btn .icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+}
+
+#footer .container {
+    margin-bottom: 0;
+}
+
+#footer footer {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
